@@ -1,4 +1,4 @@
-# Setup and Installation Instructions for Workshop
+# Setup and Installation Instructions for Jdaviz demo
 
 To run all the demo notebooks on your own computer, you will need
 a Python environment configured with the required packages (and data).
@@ -101,7 +101,7 @@ export, list, remove, and update environments that have different
 versions of Python and/or packages installed in them.*
 
 Create and activate a new Python 3.12 environment for the workshop
-called da-workshop:
+called jdaviz:
 
     % conda create -n jdaviz python=3.12 -y
     % conda activate jdaviz
