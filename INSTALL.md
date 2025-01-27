@@ -134,6 +134,9 @@ This should return 4.1.1 which is the latest released version of jdaviz.
 If this returns an unexpected output, please submit an issue or contact Cami
 as stated at the beginning of this document.
 
+Note that the first import is quite slow because of the dependencies that
+need to be imported too. Thank you for being patient.
+
 ## 8. Download the Required Workshop Data
 
 The script `download_data.py` will download the necessary data for this
