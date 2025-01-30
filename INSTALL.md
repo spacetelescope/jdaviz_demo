@@ -116,7 +116,9 @@ Jdaviz comes with a series of packages like astropy, matplotlib, Jupyter,
 and others.
 To be able to work with instrument footprints we will need to install
 pysiaf and for data sonification we will need strauss. **Here are three versions
-of the same command. Just pick one.**
+of the same command (you do not have to run all three)** I would recommend the last one since
+there are a couple of interesting things we can look at in the not-yet released
+version.
 
 Here is the basic command:
 
@@ -143,10 +145,6 @@ your default browser. Open a new notebook and in a code cell type:
 
     import jdaviz
     print(jdaviz.__version__)
-
-This should return 4.1.1 which is the latest released version of jdaviz.
-If this returns an unexpected output, please submit an issue or contact Cami
-as stated at the beginning of this document.
 
 Note that the first import is quite slow because of the dependencies that
 need to be imported too. Thank you for being patient.
