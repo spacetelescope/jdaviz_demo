@@ -121,6 +121,19 @@ Here is the command:
 
     % pip install jdaviz pysiaf strauss
 
+If (like me) you have a large number of conda environments with various
+versions of the same packages, you might want to add `--no-cache-dir`
+to be sure to get the latest versions of the required packages for the
+latest jdaviz. The command will look like this:
+
+    % pip install jdaviz pysiaf strauss --no-cache-dir
+
+If you want to use the developer version of jdaviz, you can install
+directly from github with the following command:
+
+    % pip install pysiaf strauss --no-cache-dir
+    % pip install git+https://github.com/spacetelescope/jdaviz.git --no-cache-dir
+
 ## 7. Check Installation
 
 To check your installation, run `jupyter lab` from your command line when
