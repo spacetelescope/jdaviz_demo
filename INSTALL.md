@@ -115,9 +115,10 @@ to the terminal prompt: `(jdaviz) %`
 Jdaviz comes with a series of packages like astropy, matplotlib, Jupyter,
 and others.
 To be able to work with instrument footprints we will need to install
-pysiaf and for data sonification we will need strauss.
+pysiaf and for data sonification we will need strauss. **Here are three versions
+of the same command. Just pick one.**
 
-Here is the command:
+Here is the basic command:
 
     % pip install jdaviz pysiaf strauss
 
@@ -129,7 +130,7 @@ latest jdaviz. The command will look like this:
     % pip install jdaviz pysiaf strauss --no-cache-dir
 
 If you want to use the developer version of jdaviz, you can install
-directly from github with the following command:
+directly from github with the following commands:
 
     % pip install pysiaf strauss --no-cache-dir
     % pip install git+https://github.com/spacetelescope/jdaviz.git --no-cache-dir
